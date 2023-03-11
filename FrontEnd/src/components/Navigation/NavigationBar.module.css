@@ -1,0 +1,20 @@
+/* External Fonts */
+@font-face {
+    font-family: Grotesk-R;
+    src: url(/public/fonts/AltmannGrotesk-Regular.ttf);
+}
+
+.parent_navBar{
+    background-color: #FFF9FF;
+    padding-left: 64px;
+    width: 328px;
+    margin: 0px;
+}
+
+.navigationBar{
+    width: 264px;
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(180deg, #FFEDF7 0%, #F3BCDA 134.57%);
+    box-shadow: 0vw 2px 60px rgba(0, 0, 0, 0.06), 0px 0.835552px 25.0218px rgba(0, 0, 0, 0.0431313), 0px 0.446726px 13.8231px rgba(0, 0, 0, 0.0357664), 0px 0.250431px 8.27594px rgba(0, 0, 0, 0.03), 0px 0.133002px 4.76729px rgba(0, 0, 0, 0.0242336), 0px 0.0553451px 2.16433px rgba(0, 0, 0, 0.0168687);
+}

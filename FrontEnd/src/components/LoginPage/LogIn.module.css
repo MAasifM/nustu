@@ -1,0 +1,88 @@
+/* Testing */
+/* .login_panel, .copy_right, .uni_logo, .showPassword, form
+{
+    border: 0.5px solid black;
+} */
+
+/* External Fonts */
+@font-face {
+    font-family: Altmann-R;
+    src: url(/public/fonts/AltmannGrotesk-Regular.ttf);
+}
+
+.login_panel{
+    width: 543px;
+    height: 495px;
+    margin: auto;
+    margin-top: 106px;
+    background: #EDEDED;
+    box-shadow: 0px 7px 84px rgba(0, 0, 0, 0.15), 0px 2.92443px 35.0932px rgba(0, 0, 0, 0.107828), 0px 1.56354px 18.7625px rgba(0, 0, 0, 0.0894161), 0px 0.876509px 10.5181px rgba(0, 0, 0, 0.075), 0px 0.465507px 5.58609px rgba(0, 0, 0, 0.0605839), 0px 0.193708px 2.3245px rgba(0, 0, 0, 0.0421718);
+    border-radius: 42px;
+}
+
+.copy_right{
+    width: 296px;
+    margin: auto;
+    margin-top: 71px;
+    font-family: Altmann-R;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9B8691;
+}
+
+.uni_logo{
+    width: 166.46px;
+    height: 174px;
+    margin-left: calc((100% - 166.46px) / 2);
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.showPassword{
+    position: relative;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    left: 380px;
+    bottom: 47.5px;
+    transition: scale 0.25s;
+}
+
+.showPassword:hover{
+       scale: 1.125;
+}
+
+.showDiv{
+    height: 0px;
+}
+
+.isValid{
+    border-bottom: 2px solid green;
+}
+
+.isInValid{
+    border-bottom: 2px solid #FF5065;
+}
+
+.isInValid::placeholder{
+    color: #FF5065;
+}
+
+.isIncorrect{
+    text-align: center;
+    margin: 0px;
+    color: #FF5065;
+    visibility: hidden;
+}
+
+.credWarning{
+    text-align:justify;
+    margin: 0px 132px;
+    color: #FF5065;
+    font-size: 12px;
+    visibility: hidden;
+}

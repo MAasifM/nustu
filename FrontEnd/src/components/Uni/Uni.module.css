@@ -1,0 +1,49 @@
+/* Testing */
+/* .uniLogo,
+.uniName,
+.uniTagLine,
+.uniDetail {
+    border: 0.0694vw solid black
+} */
+
+/* External Fonts */
+@font-face {
+    font-family: Colonna;
+    src: url(/public/fonts/ColonnaMT.ttf);
+}
+
+@font-face {
+    font-family: Proxim-R;
+    src: url(/public/fonts/Proxima\ Nova\ Regular.otf);
+}
+
+.uniDetail {
+    margin-bottom: 40px;
+    padding-left: 16px;
+    padding-top: 56px;
+}
+
+.uniLogo {
+    width: 83px;
+    height: 87px;
+}
+
+.uniName {
+    margin-left: 20px;
+    font-family: Colonna;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #9E1F63;
+}
+
+.uniTagLine {
+    margin-left: 20px;
+    font-family: Altmann-R;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9E1F63;
+}

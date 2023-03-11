@@ -1,0 +1,58 @@
+/* External Fonts */
+@font-face {
+    font-family: Altmann-R;
+    src: url(/public/fonts/AltmannGrotesk-Regular.ttf);
+}
+
+.boardLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 36px;
+    height: 48px;
+    font-family: Altmann-R;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(59, 45, 53, 0.5);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.boardLink:hover{
+    color: rgba(59, 45, 53, 0.5);
+    box-sizing: border-box;
+    background: #FBD9EB;
+    border-left: 7px solid #B84DB5;
+    padding-left: 29px;
+}
+
+.navSvg{
+    margin-right: 24px;
+    width: 18px;
+    height: 18px;
+}
+
+.activeLink{
+    color: rgba(59, 45, 53, 0.5);
+    box-sizing: border-box;
+    background: #FBD9EB;
+    border-left: 7px solid #B84DB5;
+    padding-left: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+    font-family: Altmann-R;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+/* External Fonts */
+@font-face {
+    font-family: Grotesk-B;
+    src: url(/public/fonts/AltmannGrotesk-Bold.ttf);
+}
+
+.pageNotFound{
+    text-align: center;
+    font: Grotesk-B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 70px;
+    height: 194px;
+    margin: 0px;
+}
+
+.restPage{
+    height: calc(100vh - 194px);
+    background-color: #FFF9FF;
+    padding-top: 125px;
+}

@@ -1,0 +1,32 @@
+/* External Fonts */
+@font-face {
+    font-family: Brandon-R;
+    src: url(/public/fonts/Brandon_light.otf);
+}
+
+input{
+    width: 278px;
+    height: 33px;
+    padding-right: 35px;
+    margin-left: calc((100% - 278px) / 2);
+    margin-right: calc((100% - 278px) / 2);
+    margin-top: 15px;
+    font-family: Brandon-R;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 18px;
+    color: #1D2327;
+    border: 0px transparent;
+    background-color: #EDEDED;
+    border-bottom: 1px solid #53575A;
+}
+
+input:active,
+input:focus {
+    outline: none;
+}
+
+/* Testing */
+/* input {
+    border: 1px solid black;
+} */

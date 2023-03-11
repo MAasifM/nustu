@@ -1,0 +1,56 @@
+/* External Fonts  */
+@font-face {
+    font-family: Proxima-R;
+    src: url(/public/fonts/Proxima\ Nova\ Regular.otf);
+}
+
+.logInButton{
+    margin-left: calc((100% - 214px) / 2);
+    margin-top: 17px;
+    gap: 16px;
+    width: 214px;
+    height: 54px;
+    background: linear-gradient(90deg, #B84DB5 0%, #CC438D 100%);
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.logOutButton{
+    margin: auto;
+    margin-top: 70px;
+    gap: 8px;
+    width: 200px;
+    height: 48px;
+    background: white;
+    font-size: 16px;
+    color: #ACACAC;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    padding: 25px 48px 24px;
+    box-shadow: 0px 2px 87px rgba(0, 0, 0, 0.08), 0px 0.602941px 26.228px rgba(0, 0, 0, 0.0912224);
+    border-radius: 10px;
+    font-family: Proxima-R;
+    font-style: normal;
+    font-weight: 700;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: scale 0.25s;
+}
+
+button:hover {
+    scale: 1.025;
+}
+
+button:active,
+button:focus {
+    outline: none;
+    border: none;
+    border-color: transparent;
+}

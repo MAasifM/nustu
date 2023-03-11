@@ -1,0 +1,21 @@
+.personalInfo{
+    height: 150px;
+    width: 1026px;
+    padding-left: 22px;
+}
+
+.Name{
+    width: 587px;
+}
+
+.Search{
+    width: 265px;
+}
+
+.Notify{
+    width: 126px;
+}
+
+.Picture{
+    width: 48px;
+}
